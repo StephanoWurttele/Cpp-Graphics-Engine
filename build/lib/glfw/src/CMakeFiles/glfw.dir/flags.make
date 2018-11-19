@@ -6,5 +6,5 @@ C_FLAGS = -O2 -g -DNDEBUG -fPIC   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/piero/Development/Cpp/engine3/lib/glfw/include -I/home/piero/Development/Cpp/engine3/lib/glfw/src -I/home/piero/Development/Cpp/engine3/build/lib/glfw/src 
+C_INCLUDES = -I/home/piero/Development/Cpp/engine/lib/glfw/include -I/home/piero/Development/Cpp/engine/lib/glfw/src -I/home/piero/Development/Cpp/engine/build/lib/glfw/src 
 

@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14 -O2 -g -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/piero/Development/Cpp/engine3/src -I/usr/include/SOIL -I/home/piero/Development/Cpp/engine3/lib/glfw/include 
+CXX_INCLUDES = -I/home/piero/Development/Cpp/engine/src -I/usr/include/SOIL -I/home/piero/Development/Cpp/engine/lib/glfw/include 
 

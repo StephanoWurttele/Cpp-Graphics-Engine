@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/piero/Development/Cpp/engine3/build/CMakeFiles/3.12.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/piero/Development/Cpp/engine/build/CMakeFiles/3.12.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,36 +23,36 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/piero/Development/Cpp/engine3/build/CMakeFiles/3.12.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/piero/Development/Cpp/engine/build/CMakeFiles/3.12.4/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_05840/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_05840.dir/build.make CMakeFiles/cmTC_05840.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_05840.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_05840.dir/testCCompiler.c.o   -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_05840
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05840.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_05840.dir/testCCompiler.c.o  -o cmTC_05840 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9141d/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9141d.dir/build.make CMakeFiles/cmTC_9141d.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9141d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9141d.dir/testCCompiler.c.o   -c /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9141d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9141d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9141d.dir/testCCompiler.c.o  -o cmTC_9141d 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_67797/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_67797.dir/build.make CMakeFiles/cmTC_67797.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_67797.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_67797.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_67797
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67797.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_67797.dir/CMakeCCompilerABI.c.o  -o cmTC_67797 
+Run Build Command:"/usr/bin/make" "cmTC_2b7f4/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2b7f4.dir/build.make CMakeFiles/cmTC_2b7f4.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b7f4.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2b7f4.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2b7f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b7f4.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2b7f4.dir/CMakeCCompilerABI.c.o  -o cmTC_2b7f4 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
@@ -62,26 +62,26 @@ Thread model: posix
 gcc version 8.2.1 20180831 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_67797' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJpetGd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_67797 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_67797.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_67797' '-mtune=generic' '-march=x86-64'
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2b7f4' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUeklov.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2b7f4 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_2b7f4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2b7f4' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_67797/fast"]
-  ignore line: [make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_67797.dir/build.make CMakeFiles/cmTC_67797.dir/build]
-  ignore line: [make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_67797.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_67797.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_67797]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67797.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_67797.dir/CMakeCCompilerABI.c.o  -o cmTC_67797 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2b7f4/fast"]
+  ignore line: [make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2b7f4.dir/build.make CMakeFiles/cmTC_2b7f4.dir/build]
+  ignore line: [make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2b7f4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2b7f4.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2b7f4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b7f4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2b7f4.dir/CMakeCCompilerABI.c.o  -o cmTC_2b7f4 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
@@ -91,13 +91,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.1 20180831 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_67797' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJpetGd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_67797 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_67797.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2b7f4' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUeklov.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2b7f4 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_2b7f4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccJpetGd.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUeklov.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -113,7 +113,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_67797] ==> ignore
+    arg [cmTC_2b7f4] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
@@ -122,7 +122,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
-    arg [CMakeFiles/cmTC_67797.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2b7f4.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -147,19 +147,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff889/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ff889.dir/build.make CMakeFiles/cmTC_ff889.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ff889.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ff889.dir/feature_tests.c.o   -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ff889
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff889.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ff889.dir/feature_tests.c.o  -o cmTC_ff889 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_71d67/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_71d67.dir/build.make CMakeFiles/cmTC_71d67.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71d67.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_71d67.dir/feature_tests.c.o   -c /home/piero/Development/Cpp/engine/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_71d67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71d67.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_71d67.dir/feature_tests.c.o  -o cmTC_71d67 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -169,19 +169,19 @@ make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fad41/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_fad41.dir/build.make CMakeFiles/cmTC_fad41.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fad41.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_fad41.dir/feature_tests.c.o   -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_fad41
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fad41.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fad41.dir/feature_tests.c.o  -o cmTC_fad41 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c4a91/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c4a91.dir/build.make CMakeFiles/cmTC_c4a91.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4a91.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_c4a91.dir/feature_tests.c.o   -c /home/piero/Development/Cpp/engine/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c4a91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4a91.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c4a91.dir/feature_tests.c.o  -o cmTC_c4a91 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -191,19 +191,19 @@ make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f417d/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_f417d.dir/build.make CMakeFiles/cmTC_f417d.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f417d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f417d.dir/feature_tests.c.o   -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f417d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f417d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f417d.dir/feature_tests.c.o  -o cmTC_f417d 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ff5fc/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ff5fc.dir/build.make CMakeFiles/cmTC_ff5fc.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff5fc.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_ff5fc.dir/feature_tests.c.o   -c /home/piero/Development/Cpp/engine/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ff5fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff5fc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ff5fc.dir/feature_tests.c.o  -o cmTC_ff5fc 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,33 +211,33 @@ make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_54904/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_54904.dir/build.make CMakeFiles/cmTC_54904.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_54904.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_54904.dir/testCXXCompiler.cxx.o -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_54904
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54904.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_54904.dir/testCXXCompiler.cxx.o  -o cmTC_54904 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6827a/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6827a.dir/build.make CMakeFiles/cmTC_6827a.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6827a.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_6827a.dir/testCXXCompiler.cxx.o -c /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6827a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6827a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6827a.dir/testCXXCompiler.cxx.o  -o cmTC_6827a 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e197e/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_e197e.dir/build.make CMakeFiles/cmTC_e197e.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e197e.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_e197e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_e197e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e197e.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_e197e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e197e 
+Run Build Command:"/usr/bin/make" "cmTC_a36fa/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a36fa.dir/build.make CMakeFiles/cmTC_a36fa.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a36fa.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a36fa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a36fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a36fa.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a36fa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a36fa 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
@@ -247,26 +247,26 @@ Thread model: posix
 gcc version 8.2.1 20180831 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e197e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5s4epx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e197e /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_e197e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e197e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a36fa' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqLdSJ7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a36fa /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_a36fa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a36fa' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e197e/fast"]
-  ignore line: [make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e197e.dir/build.make CMakeFiles/cmTC_e197e.dir/build]
-  ignore line: [make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_e197e.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_e197e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_e197e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e197e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_e197e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e197e ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a36fa/fast"]
+  ignore line: [make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a36fa.dir/build.make CMakeFiles/cmTC_a36fa.dir/build]
+  ignore line: [make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a36fa.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a36fa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a36fa]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a36fa.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a36fa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a36fa ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
@@ -276,13 +276,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.1 20180831 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e197e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5s4epx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e197e /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_e197e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a36fa' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqLdSJ7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a36fa /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_a36fa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc5s4epx.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqLdSJ7.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -298,7 +298,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e197e] ==> ignore
+    arg [cmTC_a36fa] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
@@ -307,7 +307,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
-    arg [CMakeFiles/cmTC_e197e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a36fa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -330,19 +330,19 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f47bd/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_f47bd.dir/build.make CMakeFiles/cmTC_f47bd.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f47bd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_f47bd.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f47bd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f47bd.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f47bd.dir/feature_tests.cxx.o  -o cmTC_f47bd 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_226e6/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_226e6.dir/build.make CMakeFiles/cmTC_226e6.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_226e6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_226e6.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_226e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_226e6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_226e6.dir/feature_tests.cxx.o  -o cmTC_226e6 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -405,19 +405,19 @@ make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fda1f/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_fda1f.dir/build.make CMakeFiles/cmTC_fda1f.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fda1f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_fda1f.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fda1f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fda1f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_fda1f.dir/feature_tests.cxx.o  -o cmTC_fda1f 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_009f0/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_009f0.dir/build.make CMakeFiles/cmTC_009f0.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_009f0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_009f0.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_009f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_009f0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_009f0.dir/feature_tests.cxx.o  -o cmTC_009f0 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -480,19 +480,19 @@ make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4c76a/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_4c76a.dir/build.make CMakeFiles/cmTC_4c76a.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4c76a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_4c76a.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4c76a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c76a.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4c76a.dir/feature_tests.cxx.o  -o cmTC_4c76a 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f3f6b/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f3f6b.dir/build.make CMakeFiles/cmTC_f3f6b.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3f6b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f3f6b.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f3f6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3f6b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f3f6b.dir/feature_tests.cxx.o  -o cmTC_f3f6b 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -555,19 +555,19 @@ make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f6597/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_f6597.dir/build.make CMakeFiles/cmTC_f6597.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f6597.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f6597.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f6597
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6597.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f6597.dir/feature_tests.cxx.o  -o cmTC_f6597 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ed162/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ed162.dir/build.make CMakeFiles/cmTC_ed162.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed162.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_ed162.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ed162
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed162.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ed162.dir/feature_tests.cxx.o  -o cmTC_ed162 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -630,19 +630,19 @@ make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73986/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_73986.dir/build.make CMakeFiles/cmTC_73986.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_73986.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_73986.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_73986
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73986.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_73986.dir/feature_tests.cxx.o  -o cmTC_73986 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_da164/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_da164.dir/build.make CMakeFiles/cmTC_da164.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da164.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_da164.dir/feature_tests.cxx.o -c /home/piero/Development/Cpp/engine/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_da164
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da164.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_da164.dir/feature_tests.cxx.o  -o cmTC_da164 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -703,130 +703,130 @@ make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1b48a/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_1b48a.dir/build.make CMakeFiles/cmTC_1b48a.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b48a.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1b48a.dir/CheckIncludeFile.c.o   -c /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1b48a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b48a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1b48a.dir/CheckIncludeFile.c.o  -o cmTC_1b48a 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c9612/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c9612.dir/build.make CMakeFiles/cmTC_c9612.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9612.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c9612.dir/CheckIncludeFile.c.o   -c /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c9612
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9612.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c9612.dir/CheckIncludeFile.c.o  -o cmTC_c9612 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_17e4a/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_17e4a.dir/build.make CMakeFiles/cmTC_17e4a.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_17e4a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_17e4a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_17e4a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e4a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_17e4a.dir/CheckFunctionExists.c.o  -o cmTC_17e4a -lpthread 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2281c/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2281c.dir/build.make CMakeFiles/cmTC_2281c.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2281c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2281c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2281c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2281c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2281c.dir/CheckFunctionExists.c.o  -o cmTC_2281c -lpthread 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/libX11.so;/usr/lib/libXext.so passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b2ed5/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_b2ed5.dir/build.make CMakeFiles/cmTC_b2ed5.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b2ed5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_b2ed5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b2ed5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2ed5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_b2ed5.dir/CheckFunctionExists.c.o  -o cmTC_b2ed5 /usr/lib/libX11.so /usr/lib/libXext.so 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_706ee/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_706ee.dir/build.make CMakeFiles/cmTC_706ee.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_706ee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_706ee.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_706ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_706ee.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_706ee.dir/CheckFunctionExists.c.o  -o cmTC_706ee /usr/lib/libX11.so /usr/lib/libXext.so 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69c69/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_69c69.dir/build.make CMakeFiles/cmTC_69c69.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_69c69.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_69c69.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_69c69
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69c69.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_69c69.dir/CheckFunctionExists.c.o  -o cmTC_69c69 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_44679/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_44679.dir/build.make CMakeFiles/cmTC_44679.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44679.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_44679.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_44679
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44679.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_44679.dir/CheckFunctionExists.c.o  -o cmTC_44679 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_62ed2/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_62ed2.dir/build.make CMakeFiles/cmTC_62ed2.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_62ed2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_62ed2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_62ed2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62ed2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_62ed2.dir/CheckFunctionExists.c.o  -o cmTC_62ed2 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ff234/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ff234.dir/build.make CMakeFiles/cmTC_ff234.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff234.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_ff234.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff234
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff234.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_ff234.dir/CheckFunctionExists.c.o  -o cmTC_ff234 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_59cba/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_59cba.dir/build.make CMakeFiles/cmTC_59cba.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_59cba.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_59cba.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_59cba
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59cba.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_59cba.dir/CheckFunctionExists.c.o  -o cmTC_59cba 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e0a99/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e0a99.dir/build.make CMakeFiles/cmTC_e0a99.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0a99.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_e0a99.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0a99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0a99.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_e0a99.dir/CheckFunctionExists.c.o  -o cmTC_e0a99 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a30f6/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_a30f6.dir/build.make CMakeFiles/cmTC_a30f6.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a30f6.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_a30f6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a30f6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a30f6.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_a30f6.dir/CheckFunctionExists.c.o  -o cmTC_a30f6 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2beb7/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2beb7.dir/build.make CMakeFiles/cmTC_2beb7.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2beb7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_2beb7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2beb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2beb7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_2beb7.dir/CheckFunctionExists.c.o  -o cmTC_2beb7 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8a2aa/fast"
-make[1]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_8a2aa.dir/build.make CMakeFiles/cmTC_8a2aa.dir/build
-make[2]: Entering directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8a2aa.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_8a2aa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8a2aa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a2aa.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_8a2aa.dir/CheckFunctionExists.c.o  -o cmTC_8a2aa -lICE 
-make[2]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/piero/Development/Cpp/engine3/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_df264/fast"
+make[1]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_df264.dir/build.make CMakeFiles/cmTC_df264.dir/build
+make[2]: Entering directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df264.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_df264.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_df264
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df264.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_df264.dir/CheckFunctionExists.c.o  -o cmTC_df264 -lICE 
+make[2]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/piero/Development/Cpp/engine/build/CMakeFiles/CMakeTmp'
 
 

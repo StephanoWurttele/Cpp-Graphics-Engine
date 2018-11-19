@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piero/Development/Cpp/engine3
+CMAKE_SOURCE_DIR = /home/piero/Development/Cpp/engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piero/Development/Cpp/engine3/build
+CMAKE_BINARY_DIR = /home/piero/Development/Cpp/engine/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/engine.dir/depend.make
@@ -59,588 +59,588 @@ include CMakeFiles/engine.dir/flags.make
 
 CMakeFiles/engine.dir/src/Scene3D.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/Scene3D.cpp.o: ../src/Scene3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/engine.dir/src/Scene3D.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Scene3D.cpp.o -c /home/piero/Development/Cpp/engine3/src/Scene3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/engine.dir/src/Scene3D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/Scene3D.cpp.o -c /home/piero/Development/Cpp/engine/src/Scene3D.cpp
 
 CMakeFiles/engine.dir/src/Scene3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/Scene3D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/Scene3D.cpp > CMakeFiles/engine.dir/src/Scene3D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/Scene3D.cpp > CMakeFiles/engine.dir/src/Scene3D.cpp.i
 
 CMakeFiles/engine.dir/src/Scene3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/Scene3D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/Scene3D.cpp -o CMakeFiles/engine.dir/src/Scene3D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/Scene3D.cpp -o CMakeFiles/engine.dir/src/Scene3D.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/Shader.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/Shader.cpp.o: ../src/graphics/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/engine.dir/src/graphics/Shader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/Shader.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/engine.dir/src/graphics/Shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/Shader.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/Shader.cpp
 
 CMakeFiles/engine.dir/src/graphics/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/Shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/Shader.cpp > CMakeFiles/engine.dir/src/graphics/Shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/Shader.cpp > CMakeFiles/engine.dir/src/graphics/Shader.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/Shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/Shader.cpp -o CMakeFiles/engine.dir/src/graphics/Shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/Shader.cpp -o CMakeFiles/engine.dir/src/graphics/Shader.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/Skybox.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/Skybox.cpp.o: ../src/graphics/Skybox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/src/graphics/Skybox.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/Skybox.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/Skybox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/src/graphics/Skybox.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/Skybox.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/Skybox.cpp
 
 CMakeFiles/engine.dir/src/graphics/Skybox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/Skybox.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/Skybox.cpp > CMakeFiles/engine.dir/src/graphics/Skybox.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/Skybox.cpp > CMakeFiles/engine.dir/src/graphics/Skybox.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/Skybox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/Skybox.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/Skybox.cpp -o CMakeFiles/engine.dir/src/graphics/Skybox.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/Skybox.cpp -o CMakeFiles/engine.dir/src/graphics/Skybox.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/Window.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/Window.cpp.o: ../src/graphics/Window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/engine.dir/src/graphics/Window.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/Window.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/engine.dir/src/graphics/Window.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/Window.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/Window.cpp
 
 CMakeFiles/engine.dir/src/graphics/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/Window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/Window.cpp > CMakeFiles/engine.dir/src/graphics/Window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/Window.cpp > CMakeFiles/engine.dir/src/graphics/Window.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/Window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/Window.cpp -o CMakeFiles/engine.dir/src/graphics/Window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/Window.cpp -o CMakeFiles/engine.dir/src/graphics/Window.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.o: ../src/graphics/camera/CubemapCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/camera/CubemapCamera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/camera/CubemapCamera.cpp
 
 CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/camera/CubemapCamera.cpp > CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/camera/CubemapCamera.cpp > CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/camera/CubemapCamera.cpp -o CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/camera/CubemapCamera.cpp -o CMakeFiles/engine.dir/src/graphics/camera/CubemapCamera.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.o: ../src/graphics/camera/FPSCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/camera/FPSCamera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/camera/FPSCamera.cpp
 
 CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/camera/FPSCamera.cpp > CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/camera/FPSCamera.cpp > CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/camera/FPSCamera.cpp -o CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/camera/FPSCamera.cpp -o CMakeFiles/engine.dir/src/graphics/camera/FPSCamera.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.o: ../src/graphics/dynamic\ lights/DirectionalLight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.o -c "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/DirectionalLight.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.o -c "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/DirectionalLight.cpp"
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/DirectionalLight.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/DirectionalLight.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/DirectionalLight.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/DirectionalLight.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DirectionalLight.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.o: ../src/graphics/dynamic\ lights/DynamicLight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.o -c "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/DynamicLight.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.o -c "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/DynamicLight.cpp"
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/DynamicLight.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/DynamicLight.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/DynamicLight.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/DynamicLight.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLight.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.o: ../src/graphics/dynamic\ lights/DynamicLightManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.o -c "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/DynamicLightManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.o -c "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/DynamicLightManager.cpp"
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/DynamicLightManager.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/DynamicLightManager.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/DynamicLightManager.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/DynamicLightManager.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/DynamicLightManager.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.o: ../src/graphics/dynamic\ lights/PointLight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.o -c "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/PointLight.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.o -c "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/PointLight.cpp"
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/PointLight.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/PointLight.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/PointLight.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/PointLight.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/PointLight.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.o: ../src/graphics/dynamic\ lights/SpotLight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.o -c "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/SpotLight.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.o -c "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/SpotLight.cpp"
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/SpotLight.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/SpotLight.cpp" > CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine3/src/graphics/dynamic lights/SpotLight.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/piero/Development/Cpp/engine/src/graphics/dynamic lights/SpotLight.cpp" -o CMakeFiles/engine.dir/src/graphics/dynamic_lights/SpotLight.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.o: ../src/graphics/ibl/EnvironmentProbe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/ibl/EnvironmentProbe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/ibl/EnvironmentProbe.cpp
 
 CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/ibl/EnvironmentProbe.cpp > CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/ibl/EnvironmentProbe.cpp > CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/ibl/EnvironmentProbe.cpp -o CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/ibl/EnvironmentProbe.cpp -o CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbe.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.o: ../src/graphics/ibl/EnvironmentProbeManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/ibl/EnvironmentProbeManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/ibl/EnvironmentProbeManager.cpp
 
 CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/ibl/EnvironmentProbeManager.cpp > CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/ibl/EnvironmentProbeManager.cpp > CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/ibl/EnvironmentProbeManager.cpp -o CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/ibl/EnvironmentProbeManager.cpp -o CMakeFiles/engine.dir/src/graphics/ibl/EnvironmentProbeManager.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.o: ../src/graphics/mesh/Material.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/mesh/Material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/mesh/Material.cpp
 
 CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/mesh/Material.cpp > CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/mesh/Material.cpp > CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/mesh/Material.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/mesh/Material.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/Material.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.o: ../src/graphics/mesh/Mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/mesh/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/mesh/Mesh.cpp
 
 CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/mesh/Mesh.cpp > CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/mesh/Mesh.cpp > CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/mesh/Mesh.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/mesh/Mesh.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/Mesh.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.o: ../src/graphics/mesh/Model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/mesh/Model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/mesh/Model.cpp
 
 CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/mesh/Model.cpp > CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/mesh/Model.cpp > CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/mesh/Model.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/mesh/Model.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/Model.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.o: ../src/graphics/mesh/common/Cube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/mesh/common/Cube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/mesh/common/Cube.cpp
 
 CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/mesh/common/Cube.cpp > CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/mesh/common/Cube.cpp > CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/mesh/common/Cube.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/mesh/common/Cube.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/common/Cube.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.o: ../src/graphics/mesh/common/Quad.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/mesh/common/Quad.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/mesh/common/Quad.cpp
 
 CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/mesh/common/Quad.cpp > CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/mesh/common/Quad.cpp > CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/mesh/common/Quad.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/mesh/common/Quad.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/common/Quad.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.o: ../src/graphics/mesh/common/Sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/mesh/common/Sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/mesh/common/Sphere.cpp
 
 CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/mesh/common/Sphere.cpp > CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/mesh/common/Sphere.cpp > CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/mesh/common/Sphere.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/mesh/common/Sphere.cpp -o CMakeFiles/engine.dir/src/graphics/mesh/common/Sphere.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.o: ../src/graphics/renderer/GLCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/renderer/GLCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/renderer/GLCache.cpp
 
 CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/renderer/GLCache.cpp > CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/renderer/GLCache.cpp > CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/renderer/GLCache.cpp -o CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/renderer/GLCache.cpp -o CMakeFiles/engine.dir/src/graphics/renderer/GLCache.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.o: ../src/graphics/renderer/MeshRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/renderer/MeshRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/renderer/MeshRenderer.cpp
 
 CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/renderer/MeshRenderer.cpp > CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/renderer/MeshRenderer.cpp > CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/renderer/MeshRenderer.cpp -o CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/renderer/MeshRenderer.cpp -o CMakeFiles/engine.dir/src/graphics/renderer/MeshRenderer.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.o: ../src/graphics/renderer/PostProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/renderer/PostProcessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/renderer/PostProcessor.cpp
 
 CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/renderer/PostProcessor.cpp > CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/renderer/PostProcessor.cpp > CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/renderer/PostProcessor.cpp -o CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/renderer/PostProcessor.cpp -o CMakeFiles/engine.dir/src/graphics/renderer/PostProcessor.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.o: ../src/graphics/texture/Cubemap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/texture/Cubemap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/texture/Cubemap.cpp
 
 CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/texture/Cubemap.cpp > CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/texture/Cubemap.cpp > CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/texture/Cubemap.cpp -o CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/texture/Cubemap.cpp -o CMakeFiles/engine.dir/src/graphics/texture/Cubemap.cpp.s
 
 CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.o: ../src/graphics/texture/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.o -c /home/piero/Development/Cpp/engine3/src/graphics/texture/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.o -c /home/piero/Development/Cpp/engine/src/graphics/texture/Texture.cpp
 
 CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/graphics/texture/Texture.cpp > CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/graphics/texture/Texture.cpp > CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.i
 
 CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/graphics/texture/Texture.cpp -o CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/graphics/texture/Texture.cpp -o CMakeFiles/engine.dir/src/graphics/texture/Texture.cpp.s
 
 CMakeFiles/engine.dir/src/main.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/engine.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/main.cpp.o -c /home/piero/Development/Cpp/engine3/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/engine.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/main.cpp.o -c /home/piero/Development/Cpp/engine/src/main.cpp
 
 CMakeFiles/engine.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/main.cpp > CMakeFiles/engine.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/main.cpp > CMakeFiles/engine.dir/src/main.cpp.i
 
 CMakeFiles/engine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/main.cpp -o CMakeFiles/engine.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/main.cpp -o CMakeFiles/engine.dir/src/main.cpp.s
 
 CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.o: ../src/platform/OpenGL/Buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.o -c /home/piero/Development/Cpp/engine3/src/platform/OpenGL/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.o -c /home/piero/Development/Cpp/engine/src/platform/OpenGL/Buffer.cpp
 
 CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/platform/OpenGL/Buffer.cpp > CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/platform/OpenGL/Buffer.cpp > CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.i
 
 CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/platform/OpenGL/Buffer.cpp -o CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/platform/OpenGL/Buffer.cpp -o CMakeFiles/engine.dir/src/platform/OpenGL/Buffer.cpp.s
 
 CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.o: ../src/platform/OpenGL/Framebuffers/RenderTarget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.o -c /home/piero/Development/Cpp/engine3/src/platform/OpenGL/Framebuffers/RenderTarget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.o -c /home/piero/Development/Cpp/engine/src/platform/OpenGL/Framebuffers/RenderTarget.cpp
 
 CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/platform/OpenGL/Framebuffers/RenderTarget.cpp > CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/platform/OpenGL/Framebuffers/RenderTarget.cpp > CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.i
 
 CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/platform/OpenGL/Framebuffers/RenderTarget.cpp -o CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/platform/OpenGL/Framebuffers/RenderTarget.cpp -o CMakeFiles/engine.dir/src/platform/OpenGL/Framebuffers/RenderTarget.cpp.s
 
 CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.o: ../src/platform/OpenGL/IndexBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.o -c /home/piero/Development/Cpp/engine3/src/platform/OpenGL/IndexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.o -c /home/piero/Development/Cpp/engine/src/platform/OpenGL/IndexBuffer.cpp
 
 CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/platform/OpenGL/IndexBuffer.cpp > CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/platform/OpenGL/IndexBuffer.cpp > CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.i
 
 CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/platform/OpenGL/IndexBuffer.cpp -o CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/platform/OpenGL/IndexBuffer.cpp -o CMakeFiles/engine.dir/src/platform/OpenGL/IndexBuffer.cpp.s
 
 CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.o: ../src/platform/OpenGL/VertexArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.o -c /home/piero/Development/Cpp/engine3/src/platform/OpenGL/VertexArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.o -c /home/piero/Development/Cpp/engine/src/platform/OpenGL/VertexArray.cpp
 
 CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/platform/OpenGL/VertexArray.cpp > CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/platform/OpenGL/VertexArray.cpp > CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.i
 
 CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/platform/OpenGL/VertexArray.cpp -o CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/platform/OpenGL/VertexArray.cpp -o CMakeFiles/engine.dir/src/platform/OpenGL/VertexArray.cpp.s
 
 CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.o: ../src/scene/SceneGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.o -c /home/piero/Development/Cpp/engine3/src/scene/SceneGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.o -c /home/piero/Development/Cpp/engine/src/scene/SceneGraph.cpp
 
 CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/scene/SceneGraph.cpp > CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/scene/SceneGraph.cpp > CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.i
 
 CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/scene/SceneGraph.cpp -o CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/scene/SceneGraph.cpp -o CMakeFiles/engine.dir/src/scene/SceneGraph.cpp.s
 
 CMakeFiles/engine.dir/src/scene/SceneNode.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/scene/SceneNode.cpp.o: ../src/scene/SceneNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/engine.dir/src/scene/SceneNode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/scene/SceneNode.cpp.o -c /home/piero/Development/Cpp/engine3/src/scene/SceneNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/engine.dir/src/scene/SceneNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/scene/SceneNode.cpp.o -c /home/piero/Development/Cpp/engine/src/scene/SceneNode.cpp
 
 CMakeFiles/engine.dir/src/scene/SceneNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/scene/SceneNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/scene/SceneNode.cpp > CMakeFiles/engine.dir/src/scene/SceneNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/scene/SceneNode.cpp > CMakeFiles/engine.dir/src/scene/SceneNode.cpp.i
 
 CMakeFiles/engine.dir/src/scene/SceneNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/scene/SceneNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/scene/SceneNode.cpp -o CMakeFiles/engine.dir/src/scene/SceneNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/scene/SceneNode.cpp -o CMakeFiles/engine.dir/src/scene/SceneNode.cpp.s
 
 CMakeFiles/engine.dir/src/terrain/Terrain.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/terrain/Terrain.cpp.o: ../src/terrain/Terrain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/engine.dir/src/terrain/Terrain.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/terrain/Terrain.cpp.o -c /home/piero/Development/Cpp/engine3/src/terrain/Terrain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/engine.dir/src/terrain/Terrain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/terrain/Terrain.cpp.o -c /home/piero/Development/Cpp/engine/src/terrain/Terrain.cpp
 
 CMakeFiles/engine.dir/src/terrain/Terrain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/terrain/Terrain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/terrain/Terrain.cpp > CMakeFiles/engine.dir/src/terrain/Terrain.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/terrain/Terrain.cpp > CMakeFiles/engine.dir/src/terrain/Terrain.cpp.i
 
 CMakeFiles/engine.dir/src/terrain/Terrain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/terrain/Terrain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/terrain/Terrain.cpp -o CMakeFiles/engine.dir/src/terrain/Terrain.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/terrain/Terrain.cpp -o CMakeFiles/engine.dir/src/terrain/Terrain.cpp.s
 
 CMakeFiles/engine.dir/src/ui/DebugPane.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/DebugPane.cpp.o: ../src/ui/DebugPane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/engine.dir/src/ui/DebugPane.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/ui/DebugPane.cpp.o -c /home/piero/Development/Cpp/engine3/src/ui/DebugPane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/engine.dir/src/ui/DebugPane.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/ui/DebugPane.cpp.o -c /home/piero/Development/Cpp/engine/src/ui/DebugPane.cpp
 
 CMakeFiles/engine.dir/src/ui/DebugPane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/ui/DebugPane.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/ui/DebugPane.cpp > CMakeFiles/engine.dir/src/ui/DebugPane.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/ui/DebugPane.cpp > CMakeFiles/engine.dir/src/ui/DebugPane.cpp.i
 
 CMakeFiles/engine.dir/src/ui/DebugPane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/ui/DebugPane.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/ui/DebugPane.cpp -o CMakeFiles/engine.dir/src/ui/DebugPane.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/ui/DebugPane.cpp -o CMakeFiles/engine.dir/src/ui/DebugPane.cpp.s
 
 CMakeFiles/engine.dir/src/ui/Pane.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/Pane.cpp.o: ../src/ui/Pane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/engine.dir/src/ui/Pane.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/ui/Pane.cpp.o -c /home/piero/Development/Cpp/engine3/src/ui/Pane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/engine.dir/src/ui/Pane.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/ui/Pane.cpp.o -c /home/piero/Development/Cpp/engine/src/ui/Pane.cpp
 
 CMakeFiles/engine.dir/src/ui/Pane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/ui/Pane.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/ui/Pane.cpp > CMakeFiles/engine.dir/src/ui/Pane.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/ui/Pane.cpp > CMakeFiles/engine.dir/src/ui/Pane.cpp.i
 
 CMakeFiles/engine.dir/src/ui/Pane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/ui/Pane.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/ui/Pane.cpp -o CMakeFiles/engine.dir/src/ui/Pane.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/ui/Pane.cpp -o CMakeFiles/engine.dir/src/ui/Pane.cpp.s
 
 CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.o: ../src/ui/RuntimePane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.o -c /home/piero/Development/Cpp/engine3/src/ui/RuntimePane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.o -c /home/piero/Development/Cpp/engine/src/ui/RuntimePane.cpp
 
 CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/ui/RuntimePane.cpp > CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/ui/RuntimePane.cpp > CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.i
 
 CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/ui/RuntimePane.cpp -o CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/ui/RuntimePane.cpp -o CMakeFiles/engine.dir/src/ui/RuntimePane.cpp.s
 
 CMakeFiles/engine.dir/src/utils/FileUtils.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/utils/FileUtils.cpp.o: ../src/utils/FileUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/engine.dir/src/utils/FileUtils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/FileUtils.cpp.o -c /home/piero/Development/Cpp/engine3/src/utils/FileUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/engine.dir/src/utils/FileUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/FileUtils.cpp.o -c /home/piero/Development/Cpp/engine/src/utils/FileUtils.cpp
 
 CMakeFiles/engine.dir/src/utils/FileUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/utils/FileUtils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/utils/FileUtils.cpp > CMakeFiles/engine.dir/src/utils/FileUtils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/utils/FileUtils.cpp > CMakeFiles/engine.dir/src/utils/FileUtils.cpp.i
 
 CMakeFiles/engine.dir/src/utils/FileUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/utils/FileUtils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/utils/FileUtils.cpp -o CMakeFiles/engine.dir/src/utils/FileUtils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/utils/FileUtils.cpp -o CMakeFiles/engine.dir/src/utils/FileUtils.cpp.s
 
 CMakeFiles/engine.dir/src/utils/Logger.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/utils/Logger.cpp.o: ../src/utils/Logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/engine.dir/src/utils/Logger.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/Logger.cpp.o -c /home/piero/Development/Cpp/engine3/src/utils/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/engine.dir/src/utils/Logger.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/Logger.cpp.o -c /home/piero/Development/Cpp/engine/src/utils/Logger.cpp
 
 CMakeFiles/engine.dir/src/utils/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/utils/Logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/utils/Logger.cpp > CMakeFiles/engine.dir/src/utils/Logger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/utils/Logger.cpp > CMakeFiles/engine.dir/src/utils/Logger.cpp.i
 
 CMakeFiles/engine.dir/src/utils/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/utils/Logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/utils/Logger.cpp -o CMakeFiles/engine.dir/src/utils/Logger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/utils/Logger.cpp -o CMakeFiles/engine.dir/src/utils/Logger.cpp.s
 
 CMakeFiles/engine.dir/src/utils/Time.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/utils/Time.cpp.o: ../src/utils/Time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/engine.dir/src/utils/Time.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/Time.cpp.o -c /home/piero/Development/Cpp/engine3/src/utils/Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/engine.dir/src/utils/Time.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/Time.cpp.o -c /home/piero/Development/Cpp/engine/src/utils/Time.cpp
 
 CMakeFiles/engine.dir/src/utils/Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/utils/Time.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/utils/Time.cpp > CMakeFiles/engine.dir/src/utils/Time.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/utils/Time.cpp > CMakeFiles/engine.dir/src/utils/Time.cpp.i
 
 CMakeFiles/engine.dir/src/utils/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/utils/Time.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/utils/Time.cpp -o CMakeFiles/engine.dir/src/utils/Time.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/utils/Time.cpp -o CMakeFiles/engine.dir/src/utils/Time.cpp.s
 
 CMakeFiles/engine.dir/src/utils/Timer.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/utils/Timer.cpp.o: ../src/utils/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/engine.dir/src/utils/Timer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/Timer.cpp.o -c /home/piero/Development/Cpp/engine3/src/utils/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/engine.dir/src/utils/Timer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/Timer.cpp.o -c /home/piero/Development/Cpp/engine/src/utils/Timer.cpp
 
 CMakeFiles/engine.dir/src/utils/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/utils/Timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/utils/Timer.cpp > CMakeFiles/engine.dir/src/utils/Timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/utils/Timer.cpp > CMakeFiles/engine.dir/src/utils/Timer.cpp.i
 
 CMakeFiles/engine.dir/src/utils/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/utils/Timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/utils/Timer.cpp -o CMakeFiles/engine.dir/src/utils/Timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/utils/Timer.cpp -o CMakeFiles/engine.dir/src/utils/Timer.cpp.s
 
 CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.o: ../src/utils/loaders/MeshLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.o -c /home/piero/Development/Cpp/engine3/src/utils/loaders/MeshLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.o -c /home/piero/Development/Cpp/engine/src/utils/loaders/MeshLoader.cpp
 
 CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/utils/loaders/MeshLoader.cpp > CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/utils/loaders/MeshLoader.cpp > CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.i
 
 CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/utils/loaders/MeshLoader.cpp -o CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/utils/loaders/MeshLoader.cpp -o CMakeFiles/engine.dir/src/utils/loaders/MeshLoader.cpp.s
 
 CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.o: ../src/utils/loaders/TextureLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.o -c /home/piero/Development/Cpp/engine3/src/utils/loaders/TextureLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.o -c /home/piero/Development/Cpp/engine/src/utils/loaders/TextureLoader.cpp
 
 CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/utils/loaders/TextureLoader.cpp > CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/utils/loaders/TextureLoader.cpp > CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.i
 
 CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/utils/loaders/TextureLoader.cpp -o CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/utils/loaders/TextureLoader.cpp -o CMakeFiles/engine.dir/src/utils/loaders/TextureLoader.cpp.s
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.o -c /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.o -c /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui.cpp
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui.cpp > CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui.cpp > CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.i
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui.cpp -o CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui.cpp -o CMakeFiles/engine.dir/src/vendor/imgui/imgui.cpp.s
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.o -c /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.o -c /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui_demo.cpp
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui_demo.cpp > CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui_demo.cpp > CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.i
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui_demo.cpp -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui_demo.cpp -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_demo.cpp.s
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.o -c /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.o -c /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui_draw.cpp
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui_draw.cpp > CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui_draw.cpp > CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.i
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui_draw.cpp -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui_draw.cpp -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_draw.cpp.s
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: ../src/vendor/imgui/imgui_impl_glfw_gl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o -c /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o -c /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui_impl_glfw_gl3.cpp > CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui_impl_glfw_gl3.cpp > CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
 
 CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine3/src/vendor/imgui/imgui_impl_glfw_gl3.cpp -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piero/Development/Cpp/engine/src/vendor/imgui/imgui_impl_glfw_gl3.cpp -o CMakeFiles/engine.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
 
 # Object files for target engine
 engine_OBJECTS = \
@@ -753,7 +753,7 @@ engine: /usr/lib/libXinerama.so
 engine: /usr/lib/libXxf86vm.so
 engine: /usr/lib/libXcursor.so
 engine: CMakeFiles/engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piero/Development/Cpp/engine3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking CXX executable engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piero/Development/Cpp/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking CXX executable engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -766,6 +766,6 @@ CMakeFiles/engine.dir/clean:
 .PHONY : CMakeFiles/engine.dir/clean
 
 CMakeFiles/engine.dir/depend:
-	cd /home/piero/Development/Cpp/engine3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piero/Development/Cpp/engine3 /home/piero/Development/Cpp/engine3 /home/piero/Development/Cpp/engine3/build /home/piero/Development/Cpp/engine3/build /home/piero/Development/Cpp/engine3/build/CMakeFiles/engine.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piero/Development/Cpp/engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piero/Development/Cpp/engine /home/piero/Development/Cpp/engine /home/piero/Development/Cpp/engine/build /home/piero/Development/Cpp/engine/build /home/piero/Development/Cpp/engine/build/CMakeFiles/engine.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/engine.dir/depend
 
