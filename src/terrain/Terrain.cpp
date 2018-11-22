@@ -98,7 +98,7 @@ namespace terrain {
 	m_Mesh->Draw();
   }
 
-  // Bilinear filtering for the terrain's normal
+  // Bilinear filtering for Normals
   glm::vec3 Terrain::calculateNormal(int x, int z, unsigned char *heightMapData) {
 	float heightR = getVertexHeight(x + 1, z    , heightMapData);
 	float heightL = getVertexHeight(x - 1, z    , heightMapData);
@@ -112,9 +112,8 @@ namespace terrain {
   }
 
   float Terrain::getVertexHeight(int x, int z, unsigned char *heightMapData) {
-	if (x < 0 || x >= m_VertexSideCount || z < 0 || z >= m_VertexSideCount) {
+	if (x < 0 || x >= m_VertexSideCount || z < 0 || z >= m_VertexSideCount)
 	  return 0.0f;
-	}
 
 	// Normalize height to [0, 1] then multiply it by the height map scale
 	return (heightMapData[x + (z * m_VertexSideCount)] / 255.0f) * m_HeightMapScale;

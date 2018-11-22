@@ -39,6 +39,7 @@ int main() {
 	bool shouldMultisample = MSAA_SAMPLE_AMOUNT > 1.0 ? true : false;
 	opengl::RenderTarget framebuffer(window.getWidth(), window.getHeight());
 	framebuffer.addColorAttachment(shouldMultisample).addDepthStencilRBO(shouldMultisample).createFramebuffer();
+
 	opengl::RenderTarget shadowmap(SHADOWMAP_RESOLUTION_X, SHADOWMAP_RESOLUTION_Y);
 	shadowmap.addDepthAttachment(false).createFramebuffer();
 
