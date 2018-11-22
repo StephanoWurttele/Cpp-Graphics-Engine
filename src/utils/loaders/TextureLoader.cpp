@@ -19,7 +19,7 @@ namespace utils {
 	int width, height, numComponents;
 	unsigned char *data = SOIL_load_image(path.c_str(), &width, &height, &numComponents, 0);
 	if (!data) {
-	  utils::Logger::getInstance().error("[TextureLoader] Coulnd't load texture from ", path);
+	  utils::Logger::getInstance().error("[TextureLoader] Couldn't load texture from ", path);
 	  SOIL_free_image_data(data);
 	  return nullptr;
 	}

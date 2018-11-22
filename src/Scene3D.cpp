@@ -9,11 +9,11 @@
 #include "graphics/mesh/common/Sphere.h"
 #include "graphics/mesh/common/Quad.h"
 
+// NOTE: Replace new with smart pointers.
 
 Scene3D::Scene3D(graphics::FPSCamera *camera, graphics::Window *window)
   : m_TerrainShader("res/shaders/terrain.vert", "res/shaders/terrain.frag"), m_ModelShader("res/shaders/pbr_model.vert", "res/shaders/pbr_model.frag"), m_Camera(camera),
-  m_ShadowmapShader("res/shaders/shadowmap.vert", "res/shaders/shadowmap.frag"), m_DynamicLightManager()
-{
+  m_ShadowmapShader("res/shaders/shadowmap.vert", "res/shaders/shadowmap.frag"), m_DynamicLightManager() {
   m_MeshRenderer = new graphics::MeshRenderer(camera);
   m_GLCache = graphics::GLCache::getInstance();
   m_Terrain = new terrain::Terrain(glm::vec3(0.0f, -20.0f, 0.0f));
@@ -26,26 +26,16 @@ Scene3D::~Scene3D() {}
 void Scene3D::init() {
   m_GLCache->setMultisample(true);
 
-  /* Load Renderables.
-  graphics::Quad windowPane;
-  windowPane.getMaterial().setDiffuseMap(utils::TextureLoader::load2DTexture(std::string("res/textures/window.png"), true));
-  windowPane.getMaterial().setSpecularMap(utils::TextureLoader::load2DTexture(std::string("res/textures/default/fullSpec.png"), false));
-  graphics::Model *glass = new graphics::Model(windowPane);
-  */
+  graphics::Model *sponza = new graphics::Model("res/3D_Models/Sponza/sponza.obj");
+  scene::SceneNode *sponzaNode = new scene::SceneNode(glm::vec3(200.0f, 50.0f, 100.0f), glm::vec3(0.05f, 0.05f, 0.05f), glm::vec3(0.0f, 0.0f, 1.0f), glm::radians(0.0f), sponza, nullptr, false);
+  add(sponzaNode);
 
-  add(new scene::SceneNode(glm::vec3(200.0f, 50.0f, 100.0f), glm::vec3(0.05f, 0.05f, 0.05f), glm::vec3(0.0f, 0.0f, 1.0f), glm::radians(0.0f), new graphics::Model("res/3D_Models/Sponza/sponza.obj"), nullptr, false));
-
-  //add(new scene::SceneNode(glm::vec3(40, 60, 40), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
-  //add(new scene::SceneNode(glm::vec3(80, 60, 80), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
-  //add(new scene::SceneNode(glm::vec3(120, 60, 120), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
-
-  //add(new scene::SceneNode(glm::vec3(20, 90, 20), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Cube()), nullptr, false));
-  //add(new scene::SceneNode(glm::vec3(140, 90, 140), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Sphere()), nullptr, false));
-  //add(new scene::SceneNode(glm::vec3(-20, 90, -20), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Quad()), nullptr, false));
+  add(new scene::SceneNode(glm::vec3(20, 90, 20), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Cube()), nullptr, false));
+  add(new scene::SceneNode(glm::vec3(20, 90, 60), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Sphere()), nullptr, false));
 
   // NOTE: Tmp Code.
   graphics::Model *pbrGun = new graphics::Model("res/3D_Models/Cerberus_Gun/Cerberus_LP.FBX");
-  add(new scene::SceneNode(glm::vec3(-120.0f, 75.0f, 120.0f), glm::vec3(0.5f, 0.5f, 0.5f), glm::vec3(1.0f, 0.0f, 0.0f), glm::radians(-90.0f), pbrGun, nullptr, false));
+  add(new scene::SceneNode(glm::vec3(120.0f, 85.0f, 220.0f), glm::vec3(0.5f, 0.5f, 0.5f), glm::vec3(1.0f, 0.0f, 0.0f), glm::radians(-90.0f), pbrGun, nullptr, false));
   pbrGun->getMeshes()[0].getMaterial().setAlbedoMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Cerberus_Gun/Textures/Cerberus_A.tga"), true));
   pbrGun->getMeshes()[0].getMaterial().setNormalMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Cerberus_Gun/Textures/Cerberus_N.tga"), false));
   pbrGun->getMeshes()[0].getMaterial().setMetallicMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Cerberus_Gun/Textures/Cerberus_M.tga"), false));
@@ -53,21 +43,16 @@ void Scene3D::init() {
   pbrGun->getMeshes()[0].getMaterial().setAmbientOcclusionMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Cerberus_Gun/Textures/Cerberus_AO.tga"), false));
 
   // NOTE: Tmp Code.
-  int nrRows = 2;
-  int nrColumns = 2;
-  float spacing = 5.0f;
-  for (int row = 0; row < nrRows; row++) {
-	for (int col = 0; col < nrColumns; col++) {
-	  graphics::Model *sphere = new graphics::Model("res/3D_Models/Sphere/globe-sphere.obj");
-	  graphics::Material &mat = sphere->getMeshes()[0].getMaterial();
-	  mat.setAlbedoMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Sphere/rustediron2_basecolor.png"), true));
-	  mat.setNormalMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Sphere/rustediron2_normal.png"), false));
-	  mat.setAmbientOcclusionMap(utils::TextureLoader::load2DTexture(std::string("res/textures/default/white.png"), false));
-	  mat.setMetallicMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Sphere/rustediron2_metallic.png"), false));
-	  mat.setRoughnessMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Sphere/rustediron2_roughness.png"), false));
-	  add(new scene::SceneNode(glm::vec3((float)(col - (nrColumns / 2)) * spacing,
-			  (float)(row - (nrRows / 2)) * spacing, 0.0f), glm::vec3(2.0f, 2.0f, 2.0f), glm::vec3(1.0f, 0.0f, 0.0f), 0.0f, sphere, nullptr, false));
-	}
+  float spacing = 20.0f;
+  for (int row = 0; row < 4; row++) {
+	graphics::Model *sphere = new graphics::Model("res/3D_Models/Sphere/globe-sphere.obj");
+	graphics::Material &mat = sphere->getMeshes()[0].getMaterial();
+	mat.setAlbedoMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Sphere/rustediron2_basecolor.png"), true));
+	mat.setNormalMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Sphere/rustediron2_normal.png"), false));
+	mat.setAmbientOcclusionMap(utils::TextureLoader::load2DTexture(std::string("res/textures/default/white.png"), false));
+	mat.setMetallicMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Sphere/rustediron2_metallic.png"), false));
+	mat.setRoughnessMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Sphere/rustediron2_roughness.png"), false));
+	add(new scene::SceneNode(glm::vec3((float)(140.0f + spacing * row), 67.0f, 270.0f + spacing * row / 7.0f), glm::vec3(8.0f, 8.0f, 8.0f), glm::vec3(1.0f, 0.0f, 0.0f), 0.0f, sphere, nullptr, false));
   }
 
   // Skybox
@@ -82,7 +67,6 @@ void Scene3D::init() {
 }
 
 void Scene3D::shadowmapPass() {
-  // Temporary location code for the shadowmap. Will move to a proper system with CSM (Cascaded shadow maps)
   glm::vec3 dirLightShadowmapLookAtPos = m_Camera->getPosition() + (glm::normalize(glm::vec3(m_Camera->getFront().x, 0.0f, m_Camera->getFront().z)) * 50.0f);
   glm::vec3 dirLightShadowmapEyePos = dirLightShadowmapLookAtPos + (-m_DynamicLightManager.getDirectionalLightDirection() * 100.0f);
 
@@ -113,6 +97,7 @@ void Scene3D::onUpdate(float deltaTime) {
 void Scene3D::onRender(unsigned int shadowmap) {
   // Setup
   glm::mat4 projectionMatrix = m_Camera->getProjectionMatrix();
+
   m_DynamicLightManager.setSpotLightDirection(m_Camera->getFront());
   m_DynamicLightManager.setSpotLightPosition(m_Camera->getPosition());
 

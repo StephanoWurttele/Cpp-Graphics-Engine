@@ -27,45 +27,9 @@ namespace graphics {
   const float FOV = 45.0f;
 
   class FPSCamera {
-	private:
-	  // Camera Attributes
-	  glm::vec3 m_Position, m_Front, m_Up, m_Right, m_WorldUp;
-
-	  // Euler Angles
-	  float m_Yaw;
-	  float m_Pitch;
-
-	  // Camera Options
-	  float m_MovementSpeed;
-	  float m_MouseSensitivity;
-	  float m_FOV;
 	public:
-	  /**
-	   * Constructs a camera using the position and up vectors
-	   * Default camera front is in vec3(0, 0, -1) direction
-	   *
-	   * @param position Optional. The initial position of the camera. Default is 0
-	   * @param up Optional. Represents the up position of the camera. Default is 0
-	   * @param yaw Optional. Initial yaw of the camera. Default is determined by the Camera class
-	   * @param pitch Optional. Initial pitch of the camera. Default is determined by the Camera class
-	   */
 	  FPSCamera(glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f), float yaw = YAW, float pitch = PITCH);
-
-	  /**
-	   * Constructs a camera using floats to represent the position and up vectors of the camera
-	   * Default camera front is in vec3(0, 0, -1) direction
-	   *
-	   * @param xPos Starting x position of the camera
-	   * @param yPos Starting y position of the camera
-	   * @param zPos Starting z position of the camera
-	   * @param xUp X-Coordinate that represents the camera's up position
-	   * @param yUp Y-Coordinate that represents the camera's up position
-	   * @param zUp Z-Coordinate that represents the camera's up position
-	   * @param yaw Optional. Initial yaw of the camera. Default is determined by the Camera class
-	   * @param pitch Optional. Initial pitch of the camera. Default is determined by the Camera class
-	   */
 	  FPSCamera(float xPos, float yPos, float zPos, float xUp, float yUp, float zUp, float yaw, float pitch);
-
 
 	  glm::mat4 getViewMatrix();
 	  glm::mat4 getProjectionMatrix();
@@ -81,36 +45,21 @@ namespace graphics {
 	  inline const glm::vec3& getFront() const { return m_Front; }
 	  inline const glm::vec3& getPosition() const { return m_Position; }
 	private:
-	  /**
-	   * Updates the front, right, and up vectors for the camera
-	   * These vectors are reliant on the yaw and pitch of the camera
-	   */
+	  // Camera Attributes
+	  glm::vec3 m_Position, m_Front, m_Up, m_Right, m_WorldUp;
+
+	  // Euler Angles
+	  float m_Yaw;
+	  float m_Pitch;
+
+	  // Camera Options
+	  float m_MovementSpeed;
+	  float m_MouseSensitivity;
+	  float m_FOV;
+
 	  void updateCameraVectors();
-
-	  /**
-	   * Translates the position of the camera
-	   *
-	   * @param direction Enumeration type for the direction to move the camera
-	   * @param deltaTime Delta time since the last update
-	   */
 	  void processKeyboard(Camera_Movement direction, float deltaTime);
-
-	  /**
-	   * Changes what the camera is looking at, by adding the offsets with a sensitivity setting
-	   * May also constrain the pitch
-	   *
-	   * @param xOffset The value that is added to the x-offset
-	   * @param yOffset The value that is added to the y-offset
-	   * @param constrainPitch Optional. Option to constrain the pitch. Default is true
-	   */
 	  void processMouseMovement(float xOffset, float yOffset, GLboolean constrainPitch);
-
-	  /**
-	   * Changes the camera's Field of View
-	   * Ensures that it doesn't go below 1 or above the maximum Field of View
-	   *
-	   * @param offset The value that is added to the Field of View
-	   */
 	  void processMouseScroll(float yOffset);
   };
 

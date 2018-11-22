@@ -15,18 +15,18 @@ namespace graphics {
 	m_DirectionalLight.direction = glm::vec3(-0.1f, -1.0f, -0.1f);
 	m_DirectionalLight.lightColour = glm::vec3(3.25f, 3.25f, 3.25f);
 
-	m_SpotLight.isActive = true;
+	m_SpotLight.isActive = false;
 	m_SpotLight.lightColour = glm::vec3(100.0f, 100.0f, 100.0f);
 	m_SpotLight.position = glm::vec3(0.0f, 0.0f, 0.0f);
 	m_SpotLight.direction = glm::vec3(1.0f, 0.0f, 0.0f);
 	m_SpotLight.cutOff = glm::cos(glm::radians(12.5f));
 	m_SpotLight.outerCutOff = glm::cos(glm::radians(15.0f));
 
-	PointLight pointLight1(glm::vec3(300.0f, 300.0f, 300.0f), glm::vec3(120.0f, 95.0f, 120.0f));
+	PointLight pointLight1(glm::vec3(200.0f, 0.0f, 0.0f), glm::vec3(160.0f, 75.0f, 290.0f));
 	pointLight1.isActive = true;
 	addPointLight(pointLight1);
 
-	PointLight pointLight2(glm::vec3(800.0f, 200.0f, 0.0f), glm::vec3(120.0f, 77.0f, 100.0f));
+	PointLight pointLight2(glm::vec3(0.0f, 200.0f, 0.0f), glm::vec3(204.0f, 56.0f, 97.0f));
 	pointLight2.isActive = true;
 	addPointLight(pointLight2);
   }
