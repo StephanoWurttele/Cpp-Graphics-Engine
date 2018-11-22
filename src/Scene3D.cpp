@@ -30,13 +30,8 @@ void Scene3D::init() {
   scene::SceneNode *sponzaNode = new scene::SceneNode(glm::vec3(200.0f, 50.0f, 100.0f), glm::vec3(0.05f, 0.05f, 0.05f), glm::vec3(0.0f, 0.0f, 1.0f), glm::radians(0.0f), sponza, nullptr, false);
   add(sponzaNode);
 
-<<<<<<< HEAD
   add(new scene::SceneNode(glm::vec3(20, 90, 20), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Cube()), nullptr, false));
   add(new scene::SceneNode(glm::vec3(20, 90, 60), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Sphere()), nullptr, false));
-=======
-  graphics::Model *sponza = new graphics::Model("res/3D_Models/Sponza/sponza.obj");
-  scene::SceneNode *sponzaNode = new scene::SceneNode(glm::vec3(200.0f, 50.0f, 100.0f), glm::vec3(0.05f, 0.05f, 0.05f), glm::vec3(0.0f, 0.0f, 1.0f), glm::radians(0.0f), sponza, nullptr, false);
-  add(sponzaNode);
 
   //add(new scene::SceneNode(glm::vec3(40, 60, 40), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
   //add(new scene::SceneNode(glm::vec3(80, 60, 80), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
@@ -45,7 +40,6 @@ void Scene3D::init() {
   add(new scene::SceneNode(glm::vec3(20, 90, 20), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Cube()), nullptr, false));
   add(new scene::SceneNode(glm::vec3(20, 90, 60), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Sphere()), nullptr, false));
   //add(new scene::SceneNode(glm::vec3(-20, 90, -20), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Quad()), nullptr, false));
->>>>>>> 34e131ee873c04e86e135d4b1717ab48fd93f76c
 
   // NOTE: Tmp Code.
   graphics::Model *pbrGun = new graphics::Model("res/3D_Models/Cerberus_Gun/Cerberus_LP.FBX");

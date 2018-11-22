@@ -22,11 +22,11 @@ namespace graphics {
 	m_SpotLight.cutOff = glm::cos(glm::radians(12.5f));
 	m_SpotLight.outerCutOff = glm::cos(glm::radians(15.0f));
 
-	PointLight pointLight1(glm::vec3(200.0f, 0.0f, 0.0f), glm::vec3(160.0f, 75.0f, 290.0f));
+	PointLight pointLight1(glm::vec3(20.0f, 0.0f, 0.0f), glm::vec3(160.0f, 75.0f, 290.0f));
 	pointLight1.isActive = true;
 	addPointLight(pointLight1);
 
-	PointLight pointLight2(glm::vec3(0.0f, 200.0f, 0.0f), glm::vec3(204.0f, 56.0f, 97.0f));
+	PointLight pointLight2(glm::vec3(0.0f, 2000.0f, 0.0f), glm::vec3(204.0f, 56.0f, 97.0f));
 	pointLight2.isActive = true;
 	addPointLight(pointLight2);
   }
