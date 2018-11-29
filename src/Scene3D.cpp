@@ -97,21 +97,6 @@ void Scene3D::shadowmapPass() {
   m_ModelShader.setUniformMat4("lightSpaceViewProjectionMatrix", directionalLightViewProjMatrix);
 }
 
-const float rotSpeed = 100.0f;
-const float moveSpeed = 20.0f;
-const float radius = 1.0f;
-
-void Scene3D::onUpdate(float deltaTime) {
-
-  // Rotation testing for PBR gun.
-  m_Renderables[1]->rotate(glm::radians(deltaTime * rotSpeed), glm::vec3(0.0f, 1.0f, 0.0f));
-
-  for (int i = 2; i < 6; ++i){
-	m_Renderables[i]->move(glm::vec3(1.0f, 0.0f, 0.0f) * deltaTime * moveSpeed);
-  }
-
-}
-
 void Scene3D::onRender(unsigned int shadowmap) {
   m_GLCache->setClipDistance0(false);
   // Setup
@@ -182,5 +167,22 @@ void Scene3D::addObjectsToRenderQueue() {
 
 	iter++;
   }
+}
+
+const float rotSpeed = 100.0f;
+const float moveSpeed = 20.0f;
+const float radius = 1.0f;
+
+void Scene3D::onUpdate(float deltaTime) {
+
+  // Rotation testing for PBR gun.
+  m_Renderables[1]->rotate(glm::radians(deltaTime * rotSpeed), glm::vec3(0.0f, 1.0f, 0.0f));
+
+  /*
+  for (int i = 2; i < 6; ++i){
+	m_Renderables[i]->move(glm::vec3(1.0f, 0.0f, 0.0f) * deltaTime * moveSpeed);
+  }
+  */
+
 }
 

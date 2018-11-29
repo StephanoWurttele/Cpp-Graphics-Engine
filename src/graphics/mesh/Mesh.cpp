@@ -30,11 +30,10 @@ namespace graphics {
 	glBindVertexArray(0);
   }
 
-  void Mesh::LoadData(bool interleaved) {
-	// Check for possible mesh initialization errors
-	{
+  void Mesh::LoadData(bool interleaved) { {
 	  unsigned int vertexCount = m_Positions.size();
 
+	  // Check for possible mesh initialization errors
 	  if (vertexCount == 0)
 		utils::Logger::getInstance().error("[MeshCreation]", "Mesh doesn't contain any vertices");
 
@@ -75,8 +74,7 @@ namespace graphics {
 		  data.push_back(m_Bitangents[i].z);
 		}
 	  }
-	}
-	else {
+	} else {
 	  for (unsigned int i = 0; i < m_Positions.size(); i++) {
 		data.push_back(m_Positions[i].x);
 		data.push_back(m_Positions[i].y);
@@ -124,8 +122,7 @@ namespace graphics {
 	glBindVertexArray(m_VAO);
 	glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
 	glBufferData(GL_ARRAY_BUFFER, data.size() * sizeof(float), &data[0], GL_STATIC_DRAW);
-	if (m_Indices.size() > 0)
-	{
+	if (m_Indices.size() > 0) {
 	  glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_IBO);
 	  glBufferData(GL_ELEMENT_ARRAY_BUFFER, m_Indices.size() * sizeof(unsigned int), &m_Indices[0], GL_STATIC_DRAW);
 	}
@@ -158,8 +155,7 @@ namespace graphics {
 		glVertexAttribPointer(4, 3, GL_FLOAT, GL_FALSE, stride, (void*)offset);
 		offset += 3 * sizeof(float);
 	  }
-	}
-	else {
+	} else {
 	  size_t offset = 0;
 
 	  glEnableVertexAttribArray(0);
