@@ -25,7 +25,7 @@
 int main() {
 	// Prepare the engine
 	graphics::FPSCamera camera(glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f), -90.0f, 0.0f);
-	graphics::Window window("Arcane Engine", WINDOW_X_RESOLUTION, WINDOW_Y_RESOLUTION);
+	graphics::Window window("Engine", WINDOW_X_RESOLUTION, WINDOW_Y_RESOLUTION);
 	Scene3D scene(&camera, &window);
 	graphics::GLCache *glCache = graphics::GLCache::getInstance();
 	graphics::PostProcessor postProcessor(scene.getRenderer());
