@@ -1,5 +1,4 @@
 #include "Scene3D.h"
-
 #include <iterator>
 #include <iostream>
 #include <glm/glm.hpp>
@@ -10,7 +9,7 @@
 #include "graphics/mesh/common/Sphere.h"
 #include "graphics/mesh/common/Quad.h"
 
-// NOTE: Replace new with smart pointers.
+// TODO: Replace new with smart pointers.
 
 Scene3D::Scene3D(graphics::FPSCamera *camera, graphics::Window *window)
   : m_TerrainShader("res/shaders/terrain.vert", "res/shaders/terrain.frag"), m_ModelShader("res/shaders/pbr_model.vert", "res/shaders/pbr_model.frag"), m_Camera(camera),
@@ -23,7 +22,11 @@ Scene3D::Scene3D(graphics::FPSCamera *camera, graphics::Window *window)
   init();
 }
 
-Scene3D::~Scene3D() {}
+Scene3D::~Scene3D() {
+  delete m_MeshRenderer;
+  delete m_Terrain;
+  delete m_Water;
+}
 
 void Scene3D::init() {
   m_GLCache->setMultisample(true);
@@ -95,13 +98,17 @@ void Scene3D::shadowmapPass() {
 }
 
 const float rotSpeed = 100.0f;
-const float moveSpeed = 100.0f;
+const float moveSpeed = 20.0f;
 const float radius = 1.0f;
 
 void Scene3D::onUpdate(float deltaTime) {
 
   // Rotation testing for PBR gun.
   m_Renderables[1]->rotate(glm::radians(deltaTime * rotSpeed), glm::vec3(0.0f, 1.0f, 0.0f));
+
+  for (int i = 2; i < 6; ++i){
+	m_Renderables[i]->move(glm::vec3(1.0f, 0.0f, 0.0f) * deltaTime * moveSpeed);
+  }
 
 }
 
@@ -133,7 +140,6 @@ void Scene3D::onRender(unsigned int shadowmap) {
 
   // Terrain
   m_GLCache->switchShader(m_TerrainShader.getShaderID());
-
   m_TerrainShader.setUniform1i("shadowmap", 0);
   glActiveTexture(GL_TEXTURE0);
   glBindTexture(GL_TEXTURE_2D, shadowmap);
@@ -170,8 +176,7 @@ void Scene3D::addObjectsToRenderQueue() {
 	scene::SceneNode *curr = *iter;
 	if (curr->getTransparent()) {
 	  m_MeshRenderer->submitTransparent(curr);
-	}
-	else {
+	} else {
 	  m_MeshRenderer->submitOpaque(curr);
 	}
 

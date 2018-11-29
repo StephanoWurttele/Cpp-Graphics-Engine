@@ -15,7 +15,7 @@ namespace graphics {
   }
 
   void PostProcessor::preLightingPostProcess() {
-	// SSAO goes here
+	// TODO: SSAO
   }
 
   void PostProcessor::postLightingPostProcess(opengl::RenderTarget *input) {

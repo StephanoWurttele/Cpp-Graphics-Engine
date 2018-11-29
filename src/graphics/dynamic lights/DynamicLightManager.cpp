@@ -29,6 +29,10 @@ namespace graphics {
 	PointLight pointLight2(glm::vec3(0.0f, 2000.0f, 0.0f), glm::vec3(204.0f, 56.0f, 97.0f));
 	pointLight2.isActive = true;
 	addPointLight(pointLight2);
+
+	PointLight pointLight3(glm::vec3(0.0f, 500.0f, 500.0f), glm::vec3(160.0f, 56.0f, 319.0f));
+	pointLight3.isActive = true;
+	addPointLight(pointLight3);
   }
 
   // TODO: Dynamically change the size of the lights or use only the close lights (LIMIT OF 5 CURRENTLY FOR POINTLIGHTS)

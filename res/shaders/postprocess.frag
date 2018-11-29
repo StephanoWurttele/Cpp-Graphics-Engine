@@ -11,8 +11,8 @@ uniform bool blur_enabled;
 
 
 void main() {
-	// Sample the fragments around the current fragment for post processing using kernels (convulution matrices)
-	// Note: Post processing may cause aliasing since it uses the blitted framebuffer (A non-multisampled buffer)
+	// Kernel postprocessing
+	// TODO: Don't hardcode kernels, pass them as uniform.
 	vec2 readOffsets[9] = vec2[] (
 		vec2(-read_offset.x, read_offset.y),
 		vec2(0.0, read_offset.y),

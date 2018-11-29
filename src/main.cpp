@@ -20,10 +20,8 @@
 #include "ui/RuntimePane.h"
 #include "ui/DebugPane.h"
 
-
-
 int main() {
-	// Prepare the engine
+	// Engine parts
 	graphics::FPSCamera camera(glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f), -90.0f, 0.0f);
 	graphics::Window window("Engine", WINDOW_X_RESOLUTION, WINDOW_Y_RESOLUTION);
 	Scene3D scene(&camera, &window);
@@ -31,11 +29,11 @@ int main() {
 	graphics::PostProcessor postProcessor(scene.getRenderer());
 	utils::TextureLoader::initializeDefaultTextures();
 
-	// Prepare the UI
+	// UI elements
 	ui::RuntimePane runtimePane(glm::vec2(256.0f, 90.0f));
 	ui::DebugPane debugPane(glm::vec2(256.0f, 115.0f));
 
-	// Construct framebuffers
+	// Build Frambuffers
 	bool shouldMultisample = MSAA_SAMPLE_AMOUNT > 1.0 ? true : false;
 	opengl::RenderTarget framebuffer(window.getWidth(), window.getHeight());
 	framebuffer.addColorAttachment(shouldMultisample).addDepthStencilRBO(shouldMultisample).createFramebuffer();

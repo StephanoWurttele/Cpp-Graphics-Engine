@@ -9,7 +9,7 @@ uniform vec3 cameraPos;
 uniform samplerCube environmentMap;
 
 void main() {
-	float refractionIndex = 1.00f/1.52f; // Assume light is travelling through air and the model is glass
+	float refractionIndex = 1.00f/1.52f;
 	vec3 fragToCam = normalize(FragPos - cameraPos);
 	vec3 refractedDir = refract(fragToCam, normalize(Normal), refractionIndex);
 

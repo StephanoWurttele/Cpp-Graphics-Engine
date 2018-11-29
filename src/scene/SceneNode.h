@@ -38,8 +38,8 @@ namespace scene {
 		m_Orientation = rot * m_Orientation;
 	  }
 
-	  inline void move(glm::vec3 to, float delta) {
-
+	  inline void move(glm::vec3 to) {
+		m_Position += to;
 	  }
 
 	private:
