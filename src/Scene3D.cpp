@@ -3,6 +3,7 @@
 #include <iterator>
 #include <iostream>
 #include <glm/glm.hpp>
+#include <math.h>
 
 #include "graphics/mesh/Mesh.h"
 #include "graphics/mesh/common/Cube.h"
@@ -27,11 +28,9 @@ Scene3D::~Scene3D() {}
 void Scene3D::init() {
   m_GLCache->setMultisample(true);
 
-  /*
   graphics::Model *sponza = new graphics::Model("res/3D_Models/Sponza/sponza.obj");
   scene::SceneNode *sponzaNode = new scene::SceneNode(glm::vec3(200.0f, 50.0f, 100.0f), glm::vec3(0.05f, 0.05f, 0.05f), glm::vec3(0.0f, 0.0f, 1.0f), glm::radians(0.0f), sponza, nullptr, false);
   add(sponzaNode);
-  */
 
   //add(new scene::SceneNode(glm::vec3(40, 60, 40), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
   //add(new scene::SceneNode(glm::vec3(80, 60, 80), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
@@ -58,14 +57,6 @@ void Scene3D::init() {
 	mat.setRoughnessMap(utils::TextureLoader::load2DTexture(std::string("res/3D_Models/Sphere/rustediron2_roughness.png"), false));
 	add(new scene::SceneNode(glm::vec3((float)(140.0f + spacing * row), 67.0f, 270.0f + spacing * row / 7.0f), glm::vec3(8.0f, 8.0f, 8.0f), glm::vec3(1.0f, 0.0f, 0.0f), 0.0f, sphere, nullptr, false));
   }
-
-  // Water rendering testing.
-  // NOTE: This should use its own separate renderer but still be managed by a MasterRenderer.
-  /*
-  graphics::Model *quad = new graphics::Model(graphics::Quad());
-  scene::SceneNode *waterNode = new scene::SceneNode(glm::vec3(555.0f, 50.0f, 350.0f), glm::vec3(60.0f, 60.0f, 60.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::radians(-90.0f), quad, nullptr, true);
-  m_Renderables.push_back(waterNode);
-  */
 
   // Skybox
   std::vector<std::string> skyboxFilePaths;
@@ -103,7 +94,14 @@ void Scene3D::shadowmapPass() {
   m_ModelShader.setUniformMat4("lightSpaceViewProjectionMatrix", directionalLightViewProjMatrix);
 }
 
+const float rotSpeed = 100.0f;
+const float moveSpeed = 100.0f;
+const float radius = 1.0f;
+
 void Scene3D::onUpdate(float deltaTime) {
+
+  // Rotation testing for PBR gun.
+  m_Renderables[1]->rotate(glm::radians(deltaTime * rotSpeed), glm::vec3(0.0f, 1.0f, 0.0f));
 
 }
 

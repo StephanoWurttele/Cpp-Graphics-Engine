@@ -27,11 +27,21 @@ namespace scene {
 	  inline const SceneNode* getParent() const { return m_Parent; }
 	  inline bool getTransparent() const { return m_Transparent; }
 
-	  inline void setPosition(glm::vec3 &other) { m_Position = other; }
-	  inline void setScale(glm::vec3 &other) { m_Scale = other; }
+	  inline void setPosition(glm::vec3 other) { m_Position = other; }
+	  inline void setScale(glm::vec3 other) { m_Scale = other; }
 	  inline void setOrientation(float radianRotation, glm::vec3 rotationAxis) { m_Orientation = glm::angleAxis(radianRotation, rotationAxis); }
 	  inline void setTransparent(bool choice) { m_Transparent = choice; }
 	  inline void setParent(SceneNode *parent) { m_Parent = parent; }
+
+	  inline void rotate(float radianRotation, glm::vec3 rotationAxis) {
+		glm::quat rot = glm::angleAxis(radianRotation, rotationAxis);
+		m_Orientation = rot * m_Orientation;
+	  }
+
+	  inline void move(glm::vec3 to, float delta) {
+
+	  }
+
 	private:
 	  glm::vec3 m_Position, m_Scale;
 	  glm::quat m_Orientation;
