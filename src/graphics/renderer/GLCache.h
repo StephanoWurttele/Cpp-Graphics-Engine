@@ -28,6 +28,8 @@ namespace graphics {
 	  void setBlendFunc(GLenum src, GLenum dst);
 	  void setCullFace(GLenum faceToCull);
 
+	  void setClipDistance0(bool choice);
+
 	  void switchShader(unsigned int shaderID);
 	private:
 	  // Toggles

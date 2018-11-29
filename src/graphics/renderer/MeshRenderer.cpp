@@ -31,7 +31,7 @@ namespace graphics {
 	  scene::SceneNode *current = m_OpaqueRenderQueue.front();
 
 	  setupModelMatrix(current, shader, pass);
-	  current->draw(shader, pass);
+	  current->Draw(shader, pass);
 
 	  m_OpaqueRenderQueue.pop_front();
 	}
@@ -57,7 +57,7 @@ namespace graphics {
 	  m_GLCache->setBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 	  setupModelMatrix(current, shader, pass);
-	  current->draw(shader, pass);
+	  current->Draw(shader, pass);
 
 	  m_TransparentRenderQueue.pop_front();
 	}

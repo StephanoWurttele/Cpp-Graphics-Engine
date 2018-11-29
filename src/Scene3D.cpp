@@ -13,10 +13,11 @@
 
 Scene3D::Scene3D(graphics::FPSCamera *camera, graphics::Window *window)
   : m_TerrainShader("res/shaders/terrain.vert", "res/shaders/terrain.frag"), m_ModelShader("res/shaders/pbr_model.vert", "res/shaders/pbr_model.frag"), m_Camera(camera),
-  m_ShadowmapShader("res/shaders/shadowmap.vert", "res/shaders/shadowmap.frag"), m_DynamicLightManager() {
+  m_ShadowmapShader("res/shaders/shadowmap.vert", "res/shaders/shadowmap.frag"), m_DynamicLightManager(){
   m_MeshRenderer = new graphics::MeshRenderer(camera);
   m_GLCache = graphics::GLCache::getInstance();
   m_Terrain = new terrain::Terrain(glm::vec3(0.0f, -20.0f, 0.0f));
+  m_Water = new graphics::Water(glm::vec3(555.0f, 50.0f, 350.0f), glm::vec3(60.0f, 60.0f, 60.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::radians(-90.0f), m_Camera);
 
   init();
 }
@@ -26,20 +27,15 @@ Scene3D::~Scene3D() {}
 void Scene3D::init() {
   m_GLCache->setMultisample(true);
 
+  /*
   graphics::Model *sponza = new graphics::Model("res/3D_Models/Sponza/sponza.obj");
   scene::SceneNode *sponzaNode = new scene::SceneNode(glm::vec3(200.0f, 50.0f, 100.0f), glm::vec3(0.05f, 0.05f, 0.05f), glm::vec3(0.0f, 0.0f, 1.0f), glm::radians(0.0f), sponza, nullptr, false);
   add(sponzaNode);
-
-  add(new scene::SceneNode(glm::vec3(20, 90, 20), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Cube()), nullptr, false));
-  add(new scene::SceneNode(glm::vec3(20, 90, 60), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Sphere()), nullptr, false));
+  */
 
   //add(new scene::SceneNode(glm::vec3(40, 60, 40), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
   //add(new scene::SceneNode(glm::vec3(80, 60, 80), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
   //add(new scene::SceneNode(glm::vec3(120, 60, 120), glm::vec3(15, 15, 15), glm::vec3(0.0, 1.0, 0.0), glm::radians(180.0f), glass, nullptr, true));
-
-  add(new scene::SceneNode(glm::vec3(20, 90, 20), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Cube()), nullptr, false));
-  add(new scene::SceneNode(glm::vec3(20, 90, 60), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Sphere()), nullptr, false));
-  //add(new scene::SceneNode(glm::vec3(-20, 90, -20), glm::vec3(10, 10, 10), glm::vec3(1, 0, 0), 0, new graphics::Model(graphics::Quad()), nullptr, false));
 
   // NOTE: Tmp Code.
   graphics::Model *pbrGun = new graphics::Model("res/3D_Models/Cerberus_Gun/Cerberus_LP.FBX");
@@ -63,6 +59,14 @@ void Scene3D::init() {
 	add(new scene::SceneNode(glm::vec3((float)(140.0f + spacing * row), 67.0f, 270.0f + spacing * row / 7.0f), glm::vec3(8.0f, 8.0f, 8.0f), glm::vec3(1.0f, 0.0f, 0.0f), 0.0f, sphere, nullptr, false));
   }
 
+  // Water rendering testing.
+  // NOTE: This should use its own separate renderer but still be managed by a MasterRenderer.
+  /*
+  graphics::Model *quad = new graphics::Model(graphics::Quad());
+  scene::SceneNode *waterNode = new scene::SceneNode(glm::vec3(555.0f, 50.0f, 350.0f), glm::vec3(60.0f, 60.0f, 60.0f), glm::vec3(1.0f, 0.0f, 0.0f), glm::radians(-90.0f), quad, nullptr, true);
+  m_Renderables.push_back(waterNode);
+  */
+
   // Skybox
   std::vector<std::string> skyboxFilePaths;
   skyboxFilePaths.push_back("res/skybox/right.png");
@@ -75,6 +79,7 @@ void Scene3D::init() {
 }
 
 void Scene3D::shadowmapPass() {
+  m_GLCache->setClipDistance0(false);
   glm::vec3 dirLightShadowmapLookAtPos = m_Camera->getPosition() + (glm::normalize(glm::vec3(m_Camera->getFront().x, 0.0f, m_Camera->getFront().z)) * 50.0f);
   glm::vec3 dirLightShadowmapEyePos = dirLightShadowmapLookAtPos + (-m_DynamicLightManager.getDirectionalLightDirection() * 100.0f);
 
@@ -103,6 +108,7 @@ void Scene3D::onUpdate(float deltaTime) {
 }
 
 void Scene3D::onRender(unsigned int shadowmap) {
+  m_GLCache->setClipDistance0(false);
   // Setup
   glm::mat4 projectionMatrix = m_Camera->getProjectionMatrix();
 
@@ -148,6 +154,9 @@ void Scene3D::onRender(unsigned int shadowmap) {
   // Skybox
   m_Skybox->Draw();
 
+  // Water
+  m_Water->Draw();
+  
   // Transparent objects
   m_GLCache->switchShader(m_ModelShader.getShaderID());
   m_MeshRenderer->flushTransparent(m_ModelShader, graphics::RenderPass::LightingPass);

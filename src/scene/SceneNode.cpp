@@ -12,7 +12,7 @@ namespace scene {
 	}
   }
 
-  void SceneNode::draw(graphics::Shader &shader, graphics::RenderPass pass) const {
+  void SceneNode::Draw(graphics::Shader &shader, graphics::RenderPass pass) const {
 	if(m_Model)
 	  m_Model->Draw(shader, pass);
   }

@@ -128,5 +128,11 @@ namespace graphics {
 	  glUseProgram(shaderID);
 	}
   }
+  void GLCache::setClipDistance0(bool choice) {
+	if (choice)
+	  glEnable(GL_CLIP_DISTANCE0);
+	else
+	  glDisable(GL_CLIP_DISTANCE0);
+  }
 
 }

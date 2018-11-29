@@ -23,8 +23,8 @@ namespace graphics {
 
 	  void flushOpaque(Shader &shader, RenderPass pass);
 	  void flushTransparent(Shader &shader, RenderPass pass);
-	public:
 	  Quad NDC_Plane;
+
 	private:
 	  void setupModelMatrix(scene::SceneNode *renderable, Shader &shader, RenderPass pass);
 

@@ -21,7 +21,7 @@ namespace graphics {
 
   void Model::Draw(Shader &shader, RenderPass pass) const {
 	for (unsigned int i = 0; i < m_Meshes.size(); ++i) {
-	  // Avoid binding material inforomation when it isn't needed
+	  // Dont bind material info when rendering shadows.
 	  if (pass != RenderPass::ShadowmapPass)
 		m_Meshes[i].m_Material.BindMaterialInformation(shader);
 	  m_Meshes[i].Draw();

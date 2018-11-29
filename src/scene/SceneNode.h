@@ -16,7 +16,7 @@ namespace scene {
 	  ~SceneNode();
 
 	  // Assumes shader is already bound by the renderer
-	  void draw(graphics::Shader &shader, graphics::RenderPass pass) const;
+	  void Draw(graphics::Shader &shader, graphics::RenderPass pass) const;
 
 	  void addChild(SceneNode *child);
 
